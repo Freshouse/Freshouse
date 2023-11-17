@@ -1,0 +1,61 @@
+body { font-family: 'Lora', serif; 
+font-size: 18px
+}
+
+h1 { font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+   font-size: 120px 
+	padding-left:20px ;}
+
+#firsth2 {font-size: 30px;
+    font-weight: lighter;
+    color: grey;
+    opacity: 0.75;
+    margin-bottom: 35px;}
+
+.banner { background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%),url(https://th.bing.com/th/id/R.53c524766dabf6ea61b5510212ffab6e?rik=sowKRTLJg%2bpcqw&riu=http%3a%2f%2fimg-19.ccm2.net%2fk4RLl7cQL-JM9XAl3MiFUriwZRs%3d%2f637deac4483244c2a5b45fd76d942e33%2fccm-ugc%2ftg3JPxZ2DAVyCgWZCLmh-network-cover-2.png&ehk=3oQ0VCGMS4LOzNNPga4PoHxtQkiifQCeXQwlKjD3r6Y%3d&risl=&pid=ImgRaw&r=0);
+    color: white;
+    padding: 180px 100px;
+    background-size: cover;
+    background-position: center; }
+);
+
+.bouton-red {background-color: none;
+padding: 18px 22px
+border-radius: 10px;
+color: yellow;
+font-weight: bolder;
+}
+
+h2 { font-family: 'Roboto', sans-serif
+font-weight: bold; }
+
+.cards { display: flex;
+flex-wrap: wrap; }
+
+.card { padding: 25px;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 15px 35px rgba(0,0,0,0.4);
+    border-radius: 10px;
+    margin: 20px 10px;
+    flex-basis: 300px;
+    flex-grow: 1; }
+
+    .image {     width: 150px;
+    border-radius: 6px;
+    overflow-clip-margin: content-box;
+    overflow: clip; }
+
+.bouton-blue {background-color: none;
+padding: 18px 22px
+border-radius: 10px;
+color: blue;
+font-weight: bolder;
+size: 16px
+margin: 50px;
+text-align: center;
+text-decoration: none;
+}
+
